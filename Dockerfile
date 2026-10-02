@@ -41,6 +41,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         libsqlite3-dev \
         libzip-dev \
+        libonig-dev \
         curl \
         unzip \
     && docker-php-ext-install \
